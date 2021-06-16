@@ -1,0 +1,9 @@
+homepage: "https://userway.org"
+documentation: "https://userway.org/google-tag-manager"
+versions:
+  # Latest Version
+  - sha: 64742b1be18ee99d3cbdd25cdc1b29452d1b5d5d
+    changeNotes: v1.1 - Initial commit
+  # Previous Versions
+  - sha: 64742b1be18ee99d3cbdd25cdc1b29452d1b5d5d
+    changeNotes: v1.0 - Initial commit

@@ -1,0 +1,1 @@
+Google tag manager template for UserWay AI widget 
