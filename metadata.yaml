@@ -2,8 +2,10 @@ homepage: "https://userway.org"
 documentation: "https://userway.org/google-tag-manager"
 versions:
   # Latest Version
+  - sha: 61db94740d4055ef62651e8654ba8aa056c0f1fc
+    changeNotes: v1.2 - Attempt to submit template
+  # Previous Versions
   - sha: 563cc957cdb33f1e451a7f1ca93df4d6ac0ee9fc
     changeNotes: v1.1 - Initial version
-  # Previous Versions
   - sha: 64742b1be18ee99d3cbdd25cdc1b29452d1b5d5d
     changeNotes: v1.0 - Initial commit
