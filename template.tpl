@@ -87,67 +87,6 @@ ___WEB_PERMISSIONS___
   {
     "instance": {
       "key": {
-        "publicId": "access_globals",
-        "versionId": "1"
-      },
-      "param": [
-        {
-          "key": "keys",
-          "value": {
-            "type": 2,
-            "listItem": [
-              {
-                "type": 3,
-                "mapKey": [
-                  {
-                    "type": 1,
-                    "string": "key"
-                  },
-                  {
-                    "type": 1,
-                    "string": "read"
-                  },
-                  {
-                    "type": 1,
-                    "string": "write"
-                  },
-                  {
-                    "type": 1,
-                    "string": "execute"
-                  }
-                ],
-                "mapValue": [
-                  {
-                    "type": 1,
-                    "string": "uwAccCode"
-                  },
-                  {
-                    "type": 8,
-                    "boolean": true
-                  },
-                  {
-                    "type": 8,
-                    "boolean": true
-                  },
-                  {
-                    "type": 8,
-                    "boolean": false
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      ]
-    },
-    "clientAnnotations": {
-      "isEditedByUser": true
-    },
-    "isRequired": true
-  },
-  {
-    "instance": {
-      "key": {
         "publicId": "inject_script",
         "versionId": "1"
       },
@@ -181,6 +120,6 @@ scenarios: []
 
 ___NOTES___
 
-Created on 6/16/2021, 3:09:51 PM
+Created on 6/18/2021, 7:53:18 AM
 
 
