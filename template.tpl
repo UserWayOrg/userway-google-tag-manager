@@ -53,6 +53,7 @@ ___TEMPLATE_PARAMETERS___
 
 ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 
+const encode = require('encodeUriComponent');
 const log = require('logToConsole');
 const injectScript = require('injectScript');
 
@@ -60,7 +61,7 @@ const accCode = data.uwAccCode;
 
 log('accCode: ', accCode);
 
-injectScript('https://cdn.userway.org/widget.js?account=' + accCode, data.gtmOnSuccess, data.gtmOnFailure);
+injectScript('https://cdn.userway.org/widget.js?account=' + encode(accCode), data.gtmOnSuccess, data.gtmOnFailure);
 
 
 ___WEB_PERMISSIONS___
